@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  margin-top: 30px;
+  border-bottom: solid 2px rgb(175, 175, 175);
+}
+
+.title {
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.list {
+  padding: 0 30px;
+  margin-left: 30px;
+  list-style: square;
+}
+
+.list-item {
+  margin-bottom: 15px;
+}
+
+.list-item a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.form {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+
+.button {
+  display: inline-block;
+  width: 65px;
+  color: #000000;
+  background-color: rgb(238, 238, 238);
+  border: solid 2px rgb(85, 85, 85);
+  border-radius: 4px;
+  padding: 5px 5px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.more-btn {
+  width: 85px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  color: #000000;
+  background-color: rgb(238, 238, 238);
+  border: solid 2px rgb(85, 85, 85);
+  border-radius: 4px;
+  padding: 5px 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+  outline: none;
+}
+
+.more-btn:hover {
+  background-color: rgba(255, 99, 71, 0.562);
+  border-color: rgba(255, 99, 71, 0.753);
+}

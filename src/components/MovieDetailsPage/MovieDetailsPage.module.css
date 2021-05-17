@@ -1,0 +1,71 @@
+.btn {
+  display: inline-block;
+  width: 65px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgb(238, 238, 238);
+  border: solid 2px rgb(85, 85, 85);
+  border-radius: 4px;
+  padding: 5px 5px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.btn:hover {
+  background-color: rgba(255, 99, 71, 0.562);
+  border-color: rgba(255, 99, 71, 0.753);
+}
+.movieDetails {
+  display: flex;
+  padding-bottom: 25px;
+  padding-right: 100px;
+  border-bottom: solid 2px rgb(175, 175, 175);
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.poster {
+  width: 200px;
+  height: 300px;
+  margin-right: 20px;
+}
+
+.name {
+  margin-top: 10px;
+}
+.container {
+  padding-bottom: 15px;
+}
+.title {
+  margin-left: 35px;
+}
+.linkBox {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 200px;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 20px;
+  padding: 5px 30px;
+  border: solid 2px black;
+  border-radius: 3px;
+}
+.link:hover {
+  border: solid 2px rgb(41, 10, 184);
+  border-radius: 3px;
+  background-color: rgba(48, 6, 233, 0.671);
+}
+.activeLink {
+  border: solid 2px rgb(41, 10, 184);
+  border-radius: 3px;
+  background-color: rgba(48, 6, 233, 0.671);
+}
